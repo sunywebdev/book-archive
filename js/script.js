@@ -73,34 +73,3 @@ const displayBooks = books => {
         })
     }
 }
-
-
-
-
-
-
-
-
-
-/* const displayBooks = books => {
-     <h4>Publisher <span class=" text-primary">: ${book.publisher[0]}</span></h4>
-    console.log(books);
-    const bookShelf = document.getElementById("books")
-    const totalBooks = document.getElementById("total-books")
-    totalBooks.innerHTML = `
-                <button type="button" class="btn btn-success">
-                    Total Book Found <span class="badge bg-danger">${books.numFound}</span>
-                </button>
-                `;
-    bookShelf.innerHTML = `
-                <div class="card" style="width: 18rem;">
-                <img src="https://covers.openlibrary.org/b/id/${books.docs[0].cover_i}-M.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                        <h4 class = "card-title" > ${books.docs[0].title}</h4>
-                        <h5 class="card-title">${books.docs[0].author_name[0]}</h5>
-                        <h6 class="card-title">First Published in ${books.docs[0].first_publish_year}</h6>
-                        <a href="https://openlibrary.org/${books.docs[0].key}" class="btn btn-primary">Read The Book</a>
-                    </div>
-                </div>
-                `;
-} */
