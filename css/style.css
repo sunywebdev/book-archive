@@ -1,9 +1,3 @@
-body {
-    max-width: 70vw;
-    margin: 0 auto;
-    background-color: #ECF6FF;
-}
-
 .card {
     background-color: white !important;
     box-shadow: 4px 4px 11px black;
