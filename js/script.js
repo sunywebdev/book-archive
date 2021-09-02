@@ -60,9 +60,9 @@ const displayBooks = books => {
                     </div>
                     <div class="col-md-8 align-self-center">
                         <div class="card-body">
-                            <h4 class="card-title">${book.title?book.title:"Not Found"}</h4>
-                            <h6 class="card-text">By ${book.author_name?book.author_name:"Not Found"}</h6>
-                            <p class="card-text">First published in ${book.first_publish_year?book.first_publish_year:"Not Found"}</p>
+                            <h4 class="card-title">${book.title?book.title:"Unknown"}</h4>
+                            <h6 class="card-text">By ${book.author_name?book.author_name:"Unknown"}</h6>
+                            <p class="card-text">First published in ${book.first_publish_year?book.first_publish_year:"Unknown"}</p>
                             <a href="https://openlibrary.org/${books.docs[0].key}" class="btn">Read The Book</a>
                         </div>
                     </div>
