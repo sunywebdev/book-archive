@@ -1,5 +1,28 @@
-.card img {
-    width: 100%;
-    height: 10rem;
-    object-fit: cover;
+body {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    height: 35vh;
+    object-fit: contain;
+}
+
+.card h6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card .published {
+    font-size: 0.8rem;
+}
+
+.card-footer {
+    background-color: transparent !important;
+}
+
+.card-footer a {
+    font-size: 0.7rem !important;
 }
