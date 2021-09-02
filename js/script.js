@@ -61,7 +61,7 @@ const displayBooks = books => {
                     <div class="col-md-8 align-self-center">
                         <div class="card-body">
                             <h4 class="card-title">${book.title}</h4>
-                            <h6 class="card-text">By ${book.author_name[0]}</h6>
+                            <h6 class="card-text">By ${book.author_name}</h6>
                             <p class="card-text">First published in ${book.first_publish_year}</p>
                             <a href="https://openlibrary.org/${books.docs[0].key}" class="btn">Read The Book</a>
                         </div>
